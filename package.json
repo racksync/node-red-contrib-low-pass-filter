@@ -1,0 +1,23 @@
+{
+  "name": "@racksync/node-red-contrib-low-pass-filter",
+  "version": "0.0.1",
+  "description": "Manipulate noise and handle data as stable as you can with low pass filter.",
+  "homepage": "https://github.com/racksync/node-red-contrib-low-pass-filter",
+  "bugs": {
+    "url": "https://github.com/racksync/node-red-contrib-low-pass-filter/issues",
+    "email" : "bugs@racksync.com"
+  },
+  "dependencies": [],
+  "keywords": [ "node-red","Home Assistant", "HASS", "RACKSYNC", "Noise", "Low Pass", "Filter" ],
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+        "Low Pass Filter": "flows/low-pass-filter.js"
+    }
+  },
+  "engines": {
+      "node": ">=12.0.0"
+    },
+  "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
+  "license": "MIT"
+}
