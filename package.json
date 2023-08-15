@@ -1,6 +1,6 @@
 {
   "name": "@racksync/node-red-contrib-low-pass-filter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
   "homepage": "https://github.com/racksync/node-red-contrib-low-pass-filter",
   "bugs": {

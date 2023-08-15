@@ -1,4 +1,4 @@
-# Low Pass Filter is Node-RED Module 
+# Node-RED Low Pass Filter Node
 
 [![Platform](https://img.shields.io/badge/platform-Node--RED-red)](https://nodered.org)
 [![node-red-contrib-low-pass-filter](https://img.shields.io/github/v/release/racksync/node-red-contrib-low-pass-filter)](https://github.com/racksync/node-red-contrib-low-pass-filter/releases) [![last commit](https://img.shields.io/github/last-commit/racksync/node-red-contrib-low-pass-filter)](https://github.com/racksync/node-red-contrib-low-pass-filter/commit/)
