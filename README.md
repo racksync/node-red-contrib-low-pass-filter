@@ -25,7 +25,7 @@ Put "Low Pass Filter" into your flow workspace as you wish
 ![racksync-screenshot](https://github.com/racksync/node-red-contrib-low-pass-filter/blob/main/images/screenshot.png?raw=true)
 
 ### Node-RED Node by RACKSYNC
-- [Toggle Flows](https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter)
+- [Toggle Flows](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-flow)
 - [Tradfri Remote](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-tradfri-remote)
 - [Low Pass Filter](https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter)
 
