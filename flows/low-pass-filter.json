@@ -1,8 +1,8 @@
 {
     "id": "3e85e6a5f3bc71b9",
     "type": "subflow",
-    "name": "Flow Toggle",
-    "info": "This is boilerplate from RACKSYNC",
+    "name": "Low Pass Filter",
+    "info": "Manipulate noise and handle data as stable as you can with low pass filter.",
     "category": "RACKSYNC",
   
 
@@ -97,7 +97,7 @@
         ],
         "meta": {
             "module": "node-red-contrib-low-pass-filter",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
             "desc": "Manipulate noise and handle data as stable as you can with low pass filter.",
             "keywords": "Home Assistant, IoT, Low Pass, Filter, Sensor",
