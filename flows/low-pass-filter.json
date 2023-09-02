@@ -4,126 +4,120 @@
     "name": "Low Pass Filter",
     "info": "Manipulate noise and handle data as stable as you can with low pass filter.",
     "category": "RACKSYNC",
-  
-
-"flow":[
-    {
-        "id": "7bbfbd506fac282d",
-        "type": "subflow",
-        "name": "Low Pass Filter",
-        "info": "",
-        "category": "RACKSYNC",
-        "in": [
-            {
-                "x": 160,
-                "y": 220,
-                "wires": [
-                    {
-                        "id": "ccf930850455e150"
-                    },
-                    {
-                        "id": "22b25da679a4617a"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 620,
-                "y": 140,
-                "wires": [
-                    {
-                        "id": "ccf930850455e150",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 800,
-                "y": 320,
-                "wires": [
-                    {
-                        "id": "22b25da679a4617a",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 790,
-                "y": 380,
-                "wires": [
-                    {
-                        "id": "22b25da679a4617a",
-                        "port": 1
-                    }
-                ]
-            }
-        ],
-        "env": [
-            {
-                "name": "DIFFERENCE",
-                "type": "num",
-                "value": "100",
-                "ui": {
-                    "icon": "font-awesome/fa-line-chart",
-                    "label": {
-                        "en-US": "Difference"
-                    },
-                    "type": "input",
-                    "opts": {
-                        "types": [
-                            "num"
-                        ]
-                    }
-                }
-            },
-            {
-                "name": "ALPHA",
-                "type": "num",
-                "value": "0.1",
-                "ui": {
-                    "icon": "font-awesome/fa-remove",
-                    "label": {
-                        "en-US": "Alpha"
-                    },
-                    "type": "input",
-                    "opts": {
-                        "types": [
-                            "num"
-                        ]
-                    }
-                }
-            }
-        ],
-        "meta": {
-            "module": "node-red-contrib-low-pass-filter",
-            "version": "0.0.4",
-            "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
-            "desc": "Manipulate noise and handle data as stable as you can with low pass filter.",
-            "keywords": "Home Assistant, IoT, Low Pass, Filter, Sensor",
-            "license": "MIT"
-        },
-        "color": "#befc03",
-        "inputLabels": [
-            "original payload"
-        ],
-        "outputLabels": [
-            "filtered payload",
-            "max difference",
-            "alpha value"
-        ],
-        "icon": "font-awesome/fa-random",
-        "status": {
-            "x": 560,
-            "y": 200,
+    "in": [
+        {
+            "x": 160,
+            "y": 220,
             "wires": [
                 {
-                    "id": "7bbfbd506fac282d",
-                    "port": 0
+                    "id": "ccf930850455e150"
+                },
+                {
+                    "id": "22b25da679a4617a"
                 }
             ]
         }
+    ],
+    "out": [
+        {
+            "x": 620,
+            "y": 140,
+            "wires": [
+                {
+                    "id": "ccf930850455e150",
+                    "port": 0
+                }
+            ]
+        },
+        {
+            "x": 800,
+            "y": 320,
+            "wires": [
+                {
+                    "id": "22b25da679a4617a",
+                    "port": 0
+                }
+            ]
+        },
+        {
+            "x": 790,
+            "y": 380,
+            "wires": [
+                {
+                    "id": "22b25da679a4617a",
+                    "port": 1
+                }
+            ]
+        }
+    ],
+    "env": [
+        {
+            "name": "DIFFERENCE",
+            "type": "num",
+            "value": "100",
+            "ui": {
+                "icon": "font-awesome/fa-line-chart",
+                "label": {
+                    "en-US": "Difference"
+                },
+                "type": "input",
+                "opts": {
+                    "types": [
+                        "num"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "ALPHA",
+            "type": "num",
+            "value": "0.1",
+            "ui": {
+                "icon": "font-awesome/fa-remove",
+                "label": {
+                    "en-US": "Alpha"
+                },
+                "type": "input",
+                "opts": {
+                    "types": [
+                        "num"
+                    ]
+                }
+            }
+        }
+    ],
+    "meta": {
+        "module": "node-red-contrib-low-pass-filter",
+        "version": "0.0.5",
+        "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
+        "desc": "Manipulate noise and handle data as stable as you can with low pass filter.",
+        "keywords": "Home Assistant, IoT, Low Pass, Filter, Sensor",
+        "license": "MIT"
     },
+    "color": "#befc03",
+    "inputLabels": [
+        "original payload"
+    ],
+    "outputLabels": [
+        "filtered payload",
+        "max difference",
+        "alpha value"
+    ],
+    "icon": "font-awesome/fa-random",
+    "status": {
+        "x": 560,
+        "y": 200,
+        "wires": [
+            {
+                "id": "7bbfbd506fac282d",
+                "port": 0
+            }
+        ]
+    },
+
+  
+
+"flow":[
     {
         "id": "ccf930850455e150",
         "type": "function",
